@@ -129,3 +129,5 @@ suites:
   - name: awesome_customers_rhel
     run_list:
       - recipe[awesome_customers_rhel_wrapper::default]
+   run_list:
+      - recipe[awesome_customers_rhel_wrapper::default]
